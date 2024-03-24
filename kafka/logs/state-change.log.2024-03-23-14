@@ -1,0 +1,5 @@
+[2024-03-23 14:55:09,193] INFO [Broker id=0] Handling LeaderAndIsr request correlationId 3 from controller 0 for 1 partitions (state.change.logger)
+[2024-03-23 14:55:09,197] INFO [Broker id=0] Stopped fetchers as part of LeaderAndIsr request correlationId 3 from controller 0 epoch 6 as part of the become-leader transition for 1 partitions (state.change.logger)
+[2024-03-23 14:55:09,220] INFO [Broker id=0] Leader javaguides_json-0 with topic id Some(9T93V-lNTaukMVTFIBc1WQ) starts at leader epoch 0 from offset 0 with partition epoch 0, high watermark 0, ISR [0], adding replicas [] and removing replicas [] . Previous leader None and previous leader epoch was -1. (state.change.logger)
+[2024-03-23 14:55:09,230] INFO [Broker id=0] Finished LeaderAndIsr request in 37ms correlationId 3 from controller 0 for 1 partitions (state.change.logger)
+[2024-03-23 14:55:09,232] INFO [Broker id=0] Add 1 partitions and deleted 0 partitions from metadata cache in response to UpdateMetadata request sent by controller 0 epoch 6 with correlation id 4 (state.change.logger)

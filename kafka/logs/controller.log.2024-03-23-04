@@ -1,0 +1,20 @@
+[2024-03-23 04:07:09,603] WARN [RequestSendThread controllerId=0] Controller 0's connection to broker 10.5.2.5:9092 (id: 0 rack: null) was unsuccessful (kafka.controller.RequestSendThread)
+java.net.SocketTimeoutException: Failed to connect within 30000 ms
+	at kafka.controller.RequestSendThread.brokerReady(ControllerChannelManager.scala:299)
+	at kafka.controller.RequestSendThread.doWork(ControllerChannelManager.scala:251)
+	at org.apache.kafka.server.util.ShutdownableThread.run(ShutdownableThread.java:131)
+[2024-03-23 04:24:02,732] WARN [RequestSendThread controllerId=0] Controller 0's connection to broker 10.5.2.5:9092 (id: 0 rack: null) was unsuccessful (kafka.controller.RequestSendThread)
+java.net.SocketTimeoutException: Failed to connect within 30000 ms
+	at kafka.controller.RequestSendThread.brokerReady(ControllerChannelManager.scala:299)
+	at kafka.controller.RequestSendThread.doWork(ControllerChannelManager.scala:251)
+	at org.apache.kafka.server.util.ShutdownableThread.run(ShutdownableThread.java:131)
+[2024-03-23 04:40:39,319] WARN [RequestSendThread controllerId=0] Controller 0's connection to broker 10.5.2.5:9092 (id: 0 rack: null) was unsuccessful (kafka.controller.RequestSendThread)
+java.net.SocketTimeoutException: Failed to connect within 30000 ms
+	at kafka.controller.RequestSendThread.brokerReady(ControllerChannelManager.scala:299)
+	at kafka.controller.RequestSendThread.doWork(ControllerChannelManager.scala:251)
+	at org.apache.kafka.server.util.ShutdownableThread.run(ShutdownableThread.java:131)
+[2024-03-23 04:58:02,841] WARN [RequestSendThread controllerId=0] Controller 0's connection to broker 10.5.2.5:9092 (id: 0 rack: null) was unsuccessful (kafka.controller.RequestSendThread)
+java.net.SocketTimeoutException: Failed to connect within 30000 ms
+	at kafka.controller.RequestSendThread.brokerReady(ControllerChannelManager.scala:299)
+	at kafka.controller.RequestSendThread.doWork(ControllerChannelManager.scala:251)
+	at org.apache.kafka.server.util.ShutdownableThread.run(ShutdownableThread.java:131)

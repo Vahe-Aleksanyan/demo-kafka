@@ -1,0 +1,6 @@
+[2024-03-23 02:29:05,199] INFO [Controller id=0, targetBrokerId=0] Node 0 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2024-03-23 02:29:05,202] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (/10.5.2.5:9092) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2024-03-23 02:29:05,203] INFO [Controller id=0, targetBrokerId=0] Client requested connection close from node 0 (org.apache.kafka.clients.NetworkClient)
+[2024-03-23 02:46:47,258] INFO [Controller id=0, targetBrokerId=0] Node 0 disconnected. (org.apache.kafka.clients.NetworkClient)
+[2024-03-23 02:46:47,258] WARN [Controller id=0, targetBrokerId=0] Connection to node 0 (/10.5.2.5:9092) could not be established. Node may not be available. (org.apache.kafka.clients.NetworkClient)
+[2024-03-23 02:46:47,259] INFO [Controller id=0, targetBrokerId=0] Client requested connection close from node 0 (org.apache.kafka.clients.NetworkClient)

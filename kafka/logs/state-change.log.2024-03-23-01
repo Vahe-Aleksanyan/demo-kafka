@@ -1,0 +1,7 @@
+[2024-03-23 01:22:48,490] INFO [Controller id=0 epoch=6] Changed partition javaguides_json-0 state from NonExistentPartition to NewPartition with assigned replicas 0 (state.change.logger)
+[2024-03-23 01:22:48,491] INFO [Controller id=0 epoch=6] Sending UpdateMetadata request to brokers HashSet() for 0 partitions (state.change.logger)
+[2024-03-23 01:22:48,491] INFO [Controller id=0 epoch=6] Sending UpdateMetadata request to brokers HashSet() for 0 partitions (state.change.logger)
+[2024-03-23 01:22:48,507] INFO [Controller id=0 epoch=6] Changed partition javaguides_json-0 from NewPartition to OnlinePartition with state LeaderAndIsr(leader=0, leaderEpoch=0, isrWithBrokerEpoch=List(BrokerState(brokerId=0, brokerEpoch=-1)), leaderRecoveryState=RECOVERED, partitionEpoch=0) (state.change.logger)
+[2024-03-23 01:22:48,508] INFO [Controller id=0 epoch=6] Sending LeaderAndIsr request to broker 0 with 1 become-leader and 0 become-follower partitions (state.change.logger)
+[2024-03-23 01:22:48,508] INFO [Controller id=0 epoch=6] Sending UpdateMetadata request to brokers HashSet(0) for 1 partitions (state.change.logger)
+[2024-03-23 01:22:48,508] INFO [Controller id=0 epoch=6] Sending UpdateMetadata request to brokers HashSet() for 0 partitions (state.change.logger)
