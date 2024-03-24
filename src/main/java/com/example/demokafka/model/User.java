@@ -1,13 +1,42 @@
 package com.example.demokafka.model;
+import jakarta.persistence.*;
+import lombok.Data;
+
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+
+@Data
+@Entity
+@Table(name = "\"user\"")
 public class User implements Comparable<User>, Iterable<String> {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private String name;
     private String lastName;
     private int age;
     private String email;
 
+
+
+
+    private static final int DEFAULT_ID = 0;
+    private static final String DEFAULT_NAME = "Default Name";
+    private static final String DEFAULT_LAST_NAME = "Default Last Name";
+    private static final int DEFAULT_AGE = 18;
+    private static final String DEFAULT_EMAIL = "default@example.com";
+
+
+
+
+    // Copy constructor
+    public User(User otherUser) {
+        this.id = otherUser.id;
+        this.name = otherUser.name;
+        this.lastName = otherUser.lastName;
+        this.age = otherUser.age;
+        this.email = otherUser.email;
+    }
 
     // Default constructor
     public User() {
@@ -121,5 +150,14 @@ public class User implements Comparable<User>, Iterable<String> {
             return fields[currentIndex++];
         }
     }
+
+    public void setData(int id, String name, String lastName, int age, String email) {
+        this.id = id != 0 ? id : DEFAULT_ID;
+        this.name = name != null ? name : DEFAULT_NAME;
+        this.lastName = lastName != null ? lastName : DEFAULT_LAST_NAME;
+        this.age = age != 0 ? age : DEFAULT_AGE;
+        this.email = email != null ? email : DEFAULT_EMAIL;
+    }
+
 
 }
